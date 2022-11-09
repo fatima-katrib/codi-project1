@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "Nexa-Bold";
+    src: URL('fonts/Nexa_Bold.otf') format("truetype");
+}
+
+@font-face {
+    font-family: "Nexa-Light";
+    src: URL('fonts/Nexa_Light.otf') format("truetype");
+}
+
+@font-face {
+    font-family: "Nexa-Black";
+    src: URL('fonts/NexaBlack.otf') format("truetype");
+}
+
+@font-face {
+    font-family: "Nexa";
+    src: URL('fonts/NexaRegular.otf') format("truetype");
+}
+
+
+
+html * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Nexa";
+}
+
+html, body {
+    background: #fff;
+}
+
+*,
+*::after,*::before {
+    box-sizing: border-box;
+}
+
+a {
+    cursor: pointer;
+    outline: none;
+}
+
+nav {
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 15px;
+}
+
+nav > svg {
+    display: block;
+    height: 65px;
+    background: #fff;
+}
+
+nav > .logo {
+    margin: 16px 0 16px 25px;
+}
+
+.nav-list > * {
+    display: inline-block;
+}
+
+.nav-list > .home-button > a{
+    color: #09a8ef ;
+}
+
+.nav-list-item > a {
+    display: inline-block;
+    padding: 16px 12px;
+    font-size: 14px;
+    color: #000;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+}
+
+.list-container {
+    display: flex;
+    align-items: center;
+}
+
+
+main {
+    height: 400px;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 32px 0 48px;
+    margin-top: auto;
+    background: #09a8ef;
+}
+
+.footer-content {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.footer-list {
+    margin-bottom: 20px;
+}
+
+.footer-list-item {
+    display: inline-block;
+    line-height: 38px;
+}
+
+.footer-list-item  > a {
+    padding: 16px 12px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.rights {
+    text-align: center;
+    color: rgba(256, 256, 256, 0.75);
+}
