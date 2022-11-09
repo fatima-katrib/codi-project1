@@ -1,0 +1,33 @@
+body {
+  font-family: "Nexa";
+  font-style: normal;
+}
+h1 {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 86px;
+  color: #09a8ef;
+  text-align: center;
+  margin: 70px auto;
+  padding: auto;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #333333;
+}
+img {
+  max-width: 650px;
+  height: auto;
+}
+.symptoms {
+  text-align: center;
+  max-width: 1115px;
+}
